@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/* ==================================================================================== */
+body{
+    background-color: #E5E5E5;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container #left{
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    padding: 56px 0 46px;
+}
+
+#left .top{
+    width:  220px;
+    margin: 0 auto;
+}
+
+#left .top h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 123%;
+    color: #2B2B2B;
+    margin-top: 31px;
+}
+
+#left .top p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #767676;
+    margin-top: 15px;
+}
+
+#left .top .icon{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left .top .icon p{
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+    background-color: #FFB400;
+    color: #2B2B2B;
+    border-radius: 50%;
+    margin-top: 0;
+    font-size: 14px;
+    position: relative;
+}
+
+#left .top .icon p i{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#left .border{
+    width: 220px;
+    height: 2px;
+    background-color: #F0F0F6;
+    margin: 15px auto 0;
+
+}
+
+#left .main{
+    margin-top: 25px;
+    max-width: 220px;
+    margin: 15px auto 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+
+}
+
+#left .main .one{
+    display: flex;
+    justify-content: space-between;
+}
+
+#left .main .one h4{
+    font-size: 15px;
+    line-height: 24px;
+    background-color: #FFB400;
+    color: #2B2B2B;
+}
+
+#left .main .one p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #2B2B2B;
+}
+
+#left .bottom{
+    max-width: 200px;
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+#left .bottom h2{
+    font-size: 18px;
+    line-height: 123%;
+    font-weight: 600;
+    color: #2B2B2B;
+    margin-bottom: 15px;
+}
+
+#left .bottom .two{
+    display: flex;
+    column-gap: 5px;
+}
+
+#left .bottom .two p{
+    font-size: 15px;
+    line-height: 24px;
+    color: #767676;
+}
+
+
+#left .bottom .two img{
+    margin-right: 15px;
+    height: 15px;
+}
+
+#left button{
+    margin: 25px auto 0;
+    padding: 10px 40px;
+    background-color: #FFB400;
+    border: none;
+    text-transform: uppercase;
+    color: #2B2B2B;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+}
+#left button p{
+    margin-left: 19px;
+    color: #2B2B2B;
+}
+/* ============================================================================== */
+
+#center{
+    width: 71%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#center .main .banner h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 123%;
+    color: #2B2B2B;
+    max-width: 500px;
+    padding-top: 93px;
+}
+#center .main{
+    height: 467px;
+    background: url(../Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#center .main .banner{
+    margin-left: 60px;
+}
+
+#center .main .banner h1 span{
+    color: #FFB400;
+}
+
+#center .main .banner p{
+    max-width: 424px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #767676;
+    text-transform: capitalize;
+    padding-top: 18px;
+}
+#center .main .banner button{
+    margin-top: 25px;
+    padding: 16px 32px;
+    text-decoration: none;
+    background-color: #FFB400;
+    color: #2B2B2B;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+}
+#center .main .banner button i{
+    color: #2B2B2B;
+    font-size: 16px;
+}
+
+#center .logos img{
+    width: 100%;
+}
+
+#center .bottom h5{
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    color: #2B2B2B;
+    background-color: #FFFFFF;
+}
+
+/* ================================================================ */
+#right{
+    width: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px 0 120px;
+    background-color: #FAFAFA;
+}
+
+#right .menu ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+#right .menu ul li:hover a{
+    background-color: #FFB400;
+}
+
+#right .menu ul li a{
+    width: 40px;
+    padding: 11px 12px;
+    background-color: #F0F0F6;
+    color: #767676;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #2B2B2B;
+    font-weight: 700;
+}
+#right .menu ul li a i{
+    color: #767676;
+}
